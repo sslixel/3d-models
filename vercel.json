@@ -3,17 +3,8 @@
     {
       "source": "/(.*).glb",
       "headers": [
-        {
-          "key": "Content-Type",
-          "value": "model/gltf-binary"
-        }
+        { "key": "Content-Type", "value": "model/gltf-binary" }
       ]
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
     }
   ]
 }
